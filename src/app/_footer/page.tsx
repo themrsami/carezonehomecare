@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -15,19 +16,19 @@ const Footer = () => {
         <div className="w-full md:w-1/2 lg:w-2/12 p-8">
           <h3 className="mb-6 text-lg text-white font-medium">About</h3>
           <ul>
-            <li className="mb-2.5"><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">Home</a></li>
-            <li className="mb-2.5"><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">About</a></li>
-            <li className="mb-2.5"><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">Special Offers</a></li>
-            <li><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">Services</a></li>
+            <li className="mb-2.5"><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/">Home</Link></li>
+            <li className="mb-2.5"><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/About">About</Link></li>
+            <li className="mb-2.5"><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/SpecialOffers">Special Offers</Link></li>
+            <li><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/Services">Services</Link></li>
           </ul>
         </div>
         <div className="w-full md:w-1/2 lg:w-2/12 p-8">
           <h3 className="mb-6 text-lg text-white font-medium">Company</h3>
           <ul>
-            <li className="mb-2.5"><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">Blog</a></li>
-            <li className="mb-2.5"><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">FAQs</a></li>
-            <li className="mb-2.5"><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">Our Team</a></li>
-            <li><a className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="#">Contact Us</a></li>
+            <li className="mb-2.5"><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/Blog">Blog</Link></li>
+            <li className="mb-2.5"><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/FAQs">FAQs</Link></li>
+            <li className="mb-2.5"><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/OurTeam">Our Team</Link></li>
+            <li><Link className="inline-block text-lg font-medium text-gray-300 hover:text-white transition duration-300" href="/ContactUs">Contact Us</Link></li>
           </ul>
         </div>
         <div className="w-full md:w-1/2 lg:flex-1 p-8">
