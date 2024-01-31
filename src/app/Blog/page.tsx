@@ -2,14 +2,14 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <section className="py-10 bg-[#1D232A] overflow-hidden">
+    <section className="py-10 bg-[#111827] overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="relative py-20 px-8 rounded-3xl" style={{backgroundImage: "url('/hands.png')",backgroundSize: 'cover',backgroundPosition: 'center',backgroundRepeat: 'no-repeat'}}>
           <div className="max-w-7xl mx-auto">
             <div className="p-10 max-w-md bg-white rounded-3xl">
               <p className="mb-3 text-xs text-gray-500 font-bold">Healthcare</p>
-              <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black">Navigating the Journey: A Guide to Elderly Independence at Home</h2>
-              <p className="mb-28 text-gray-500 font-bold">At CAREZONE, we believe in fostering independence for our seniors while ensuring their well-being. In this blog post, we'll explore practical tips and insights on promoting independence for the elderly in the comfort of their homes</p>
+              <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black font-mono">Navigating the Journey: A Guide to Elderly Independence at Home</h2>
+              <p className="mb-28 text-gray-500 font-bold font-mono text-lg">At CAREZONE, we believe in fostering independence for our seniors while ensuring their well-being. In this blog post, we'll explore practical tips and insights on promoting independence for the elderly in the comfort of their homes</p>
               <a className="flex items-center text-blue-500 hover:text-blue-600" href="#">
                 <span className="mr-0.5 font-black">Read Article</span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

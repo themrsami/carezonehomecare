@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="w-full md:w-1/2 lg:w-4/12 p-8">
           <div className="md:max-w-xs">
           <Image className="mb-7" src="/logo.webp" alt="Logo" width={320} height={132} />
-            <p className="text-white">CareZone Home Care provides personalized home health services. Our dedicated team is committed to improving your well-being in a nurturing environment. </p>
+            <p className="text-white font-mono text-lg font-black">CareZone Home Care provides personalized home health services. Our dedicated team is committed to improving your well-being in a nurturing environment. </p>
           </div>
         </div>
         <div className="w-full md:w-1/2 lg:w-2/12 p-8">

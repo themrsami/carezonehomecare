@@ -4,12 +4,12 @@ import Image from 'next/image'
 const Services = () => {
   return (
     <>
-      <section className="py-10 bg-[#1D232A] overflow-hidden">
+      <section className="py-10 bg-[#111827] overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 bg-[#111827] rounded-3xl">
             <div className="max-w-7xl mx-auto">
               <div className="mb-12 md:max-w-4xl mx-auto text-center">
-                <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-white font-black tracking-tight">Our Services</h2>
+                <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-white font-black font-mono tracking-tight">Our Services</h2>
               </div>
               <div className="max-w-5xl mx-auto">
                 <div className="flex flex-wrap -m-5 mb-10">
@@ -23,9 +23,9 @@ const Services = () => {
                           <div className="flex flex-col justify-between h-full">
                             <div className="flex-initial mb-8">
                               <a className="group inline-block mb-4" href="#">
-                                <h3 className="font-heading text-2xl text-gray-100 hover:text-gray-700 group-hover:underline font-black">CHILD CARE</h3>
+                                <h3 className="font-heading text-3xl text-gray-100 hover:text-gray-300 group-hover:underline font-black font-mono text-center">CHILD CARE</h3>
                               </a>
-                              <p className="text-gray-300">Whether you need a nanny, a babysitter, or a tutor, we have qualified and experienced staff who can take care of your children’s needs and well-being.</p>
+                              <p className="text-gray-300 font-mono text-lg">Whether you need a nanny, a babysitter, or a tutor, we have qualified and experienced staff who can take care of your children’s needs and well-being.</p>
                             </div>
                             <div className="flex-initial"></div>
                           </div>
@@ -43,9 +43,9 @@ const Services = () => {
                           <div className="flex flex-col justify-between h-full">
                             <div className="flex-initial mb-8">
                               <a className="group inline-block mb-4" href="#">
-                                <h3 className="font-heading text-2xl text-gray-100 hover:text-gray-700 group-hover:underline font-black">ELDERLY CARE</h3>
+                                <h3 className="font-heading text-3xl text-gray-100 hover:text-gray-300 group-hover:underline font-black font-mono text-center">ELDERLY CARE</h3>
                               </a>
-                              <p className="text-gray-300">Whether you need assistance with daily activities, companionship, or medical care, we have trained and certified staff who can support your elders’ health and dignity.</p>
+                              <p className="text-gray-300 font-mono text-lg">Whether you need assistance with daily activities, companionship, or medical care, we have trained and certified staff who can support your elders’ health and dignity.</p>
                             </div>
                             <div className="flex-initial"></div>
                           </div>
@@ -63,9 +63,9 @@ const Services = () => {
                           <div className="flex flex-col justify-between h-full">
                             <div className="flex-initial mb-8">
                               <a className="group inline-block mb-4" href="#">
-                                <h3 className="font-heading text-2xl text-gray-100 hover:text-gray-700 group-hover:underline font-black">DOCTOR ON CALL</h3>
+                                <h3 className="font-heading text-3xl text-gray-100 hover:text-gray-300 group-hover:underline font-black font-mono text-center">DOCTOR ON CALL</h3>
                               </a>
-                              <p className="text-gray-300">Whether you need a consultation, a prescription, or a treatment, we have licensed and skilled doctors who can provide you with quality care at home.</p>
+                              <p className="text-gray-300 font-mono text-lg">Whether you need a consultation, a prescription, or a treatment, we have licensed and skilled doctors who can provide you with quality care at home.</p>
                             </div>
                             <div className="flex-initial"></div>
                           </div>
@@ -83,9 +83,9 @@ const Services = () => {
                           <div className="flex flex-col justify-between h-full">
                             <div className="flex-initial mb-8">
                               <a className="group inline-block mb-4" href="#">
-                                <h3 className="font-heading text-2xl text-gray-100 hover:text-gray-700 group-hover:underline font-black">NURSE ON CALL</h3>
+                                <h3 className="font-heading text-3xl text-gray-100 hover:text-gray-300 group-hover:underline font-black font-mono text-center">NURSE ON CALL</h3>
                               </a>
-                              <p className="text-gray-300">Whether you need wound care, injections, or monitoring, we have registered and experienced nurses who can provide you with professional care at home.</p>
+                              <p className="text-gray-300 font-mono text-lg">Whether you need wound care, injections, or monitoring, we have registered and experienced nurses who can provide you with professional care at home.</p>
                             </div>
                             <div className="flex-initial"></div>
                           </div>
@@ -103,9 +103,9 @@ const Services = () => {
                           <div className="flex flex-col justify-between h-full">
                             <div className="flex-initial mb-8">
                               <a className="group inline-block mb-4" href="#">
-                                <h3 className="font-heading text-2xl text-gray-100 hover:text-gray-700 group-hover:underline font-black">LABORATORY AT HOME</h3>
+                                <h3 className="font-heading text-3xl text-gray-100 hover:text-gray-300 group-hover:underline font-black font-mono text-center">LABORATORY AT HOME</h3>
                               </a>
-                              <p className="text-gray-300">Whether you need blood tests, urine tests, or other tests, we have modern and portable equipment  and technicians who can perform them at home and send you the results online.</p>
+                              <p className="text-gray-300 font-mono text-lg">Whether you need blood tests, urine tests, or other tests, we have modern and portable equipment  and technicians who can perform them at home and send you the results online.</p>
                             </div>
                             <div className="flex-initial"></div>
                           </div>

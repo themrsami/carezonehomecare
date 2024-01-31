@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Contactus = () => {
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden">
+    <section className="relative py-20 md:py-32 overflow-hidden bg-[#111827]">
         <Image className="absolute top-0 left-0 md:mt-24" src="/dots-side-1.svg" alt="Dots side" width={124} height={290} />
         <Image className="absolute bottom-0 right-0 mb-8 lg:mb-24" src="/dots-side-2.svg" alt="Dots side" width={164} height={292} />
       <div className="relative container px-4 mx-auto">

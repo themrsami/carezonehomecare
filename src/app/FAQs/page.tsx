@@ -5,7 +5,7 @@ import { useState } from 'react';
 const FAQs = () => {
   const [isExpanded, setIsExpanded] = useState([false, false, false, false, false]);
   return (
-    <section className="relative pb-20 2xl:py-20 bg-gray-800 overflow-hidden">
+    <section className="relative pb-20 2xl:py-20 bg-[#111827] overflow-hidden">
       <div className="relative w-full p-20">
         <div className="mb-20">
           <h5 className="text-lg font-bold text-blue-400 text-center">Hey! Have any questions?</h5>
